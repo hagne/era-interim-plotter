@@ -1,4 +1,5 @@
-from distutils.core import setup
+# from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='erainterim',
@@ -9,6 +10,8 @@ setup(
     author='Hagen Telg',
     author_email='hagen@hagnet.net',
     description='',
-    install_requires = ['numpy', 'pandas', 'matplotlib', 'mpl_toolkits', 'netCDF4', 'xarray'],
+    install_requires = ['numpy', 'pandas', 'matplotlib',
+                        # 'mpl_toolkits',
+                        'netCDF4', 'xarray'],
     # extra_requires=['newrelic'],
 )
